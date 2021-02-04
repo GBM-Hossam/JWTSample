@@ -23,9 +23,9 @@ import java.util.logging.Logger;
  */
 public class JWebToken {
 
-    private static final String SECRET_KEY = "FREE_MASON"; //@TODO Add Signature here
+    private static final String SECRET_KEY = "Austin@2021"; //@TODO Add Signature here
     private static final char[] HEX_ARRAY = "0123456789ABCDEF".toCharArray();
-    private static final String ISSUER = "mason.metamug.net";
+    private static final String ISSUER = "RAK Notary System";
     private static final String JWT_HEADER = "{\"alg\":\"HS256\",\"typ\":\"JWT\"}";
     private JSONObject payload = new JSONObject();
     private String signature;
